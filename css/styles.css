@@ -80,7 +80,23 @@
   flex-basis: calc(((100% - ((var(--card-grid-item) - 1) * var(--card-grid-width))) / var(--card-grid-item)));
 }
 
-.button {}
+.button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 /* ...HEADER для всех страниц... */
 
@@ -272,36 +288,17 @@
 }
 
 /* Кнопка в секции герой */
-.hero .window {
+.order__button {
+  margin: 0 auto;
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  color: #FFFFFF;
-  background-color: #2196F3;
-
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  cursor: pointer;
-
-  min-width: 200px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  align-items: center;
-  text-align: center;
-
 }
 
 /* активизация фона кнопки при нажатии */
-.hero .window:hover,
-.hero .window:focus {
+.order__button:hover,
+.order__button:focus {
   background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -702,23 +699,8 @@
 
 }
 
-.subscribe-button {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
+.subscribe__button {
   padding: 10px 29px;
-  border: 1px solid transparent;
-
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .icon-send {
@@ -1101,29 +1083,18 @@
 
 /*  .......Кнопка submit.... */
 
-.modal-button-submit {
-  display: flex;
+.connect-button {
+
   margin: 0 auto;
   padding: 10px 55px;
   transition: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  color: #FFFFFF;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 0px;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-.modal-button-submit:hover,
-.modal-button-submit:focus {
+.connect-button:hover,
+.connect-button:focus {
   background-color: #188CE8;
 }
 
