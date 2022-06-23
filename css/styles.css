@@ -98,6 +98,14 @@
   cursor: pointer;
 }
 
+/* social list */
+.social-list {
+  display: flex;
+  gap: 10px;
+  display: flex;
+}
+
+
 /* ...HEADER для всех страниц... */
 
 .header {
@@ -435,20 +443,19 @@
 
 /* инфо в карточке о работнике */
 
-.team-info .icon-list {
+.team__social-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
   margin-top: 16px;
 }
 
-.team-info {
+.team__info {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.icon-item .icon-link {
+.social__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -461,7 +468,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.team-info .icon-social {
+.social__icon {
   width: 20px;
   height: 20px;
 
@@ -471,20 +478,20 @@
   fill: #AFB1B8;
 }
 
-.team-info .icon-link:hover,
-.team-info .icon-link:focus {
+.social__link:hover,
+.social__link:focus {
   background-color: #2196F3;
 }
 
-.icon-link:hover .icon-social,
-.icon-link:focus .icon-social {
+.social__link:hover .social__icon,
+.social__link:focus .social__icon {
   fill: #FFFFFF;
 }
 
 
 /* имя работника */
 
-.team-name {
+.team__name {
   margin: 0;
 
   font-weight: 500;
@@ -495,7 +502,7 @@
 }
 
 /* должность в команде  */
-.team-position {
+.team__position {
   margin-bottom: 0;
   margin-top: 10px;
 
@@ -621,9 +628,7 @@
   color: #FFFFFF;
 }
 
-.social .social-list {
-  display: flex;
-  gap: 10px;
+.footer__social-list {
   margin-top: 20px;
 }
 
