@@ -13,8 +13,7 @@
 /* ................PAGES................ */
 
 /* .page-studio,.page-portfolio - классы для "body" страниц*/
-.page-studio,
-.page-portfolio {
+.page {
   color: var(--primary-text-color);
   background-color: var(--primary-white-bgcolor);
 
@@ -48,6 +47,14 @@
 
 }
 
+/* заголовки H2 */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 /* скрытие заголовка */
 .visually-hidden {
   position: absolute;
@@ -73,13 +80,15 @@
   flex-basis: calc(((100% - ((var(--card-grid-item) - 1) * var(--card-grid-width))) / var(--card-grid-item)));
 }
 
+.button {}
+
 /* ...HEADER для всех страниц... */
 
-header {
+.header {
   border-bottom: 1px solid #ECECEC;
 }
 
-.container.header-box {
+.header__container {
   display: flex;
   align-items: center;
 
@@ -104,35 +113,35 @@ header {
   text-decoration-line: none;
 }
 
-.logo-dark {
+.logo--dark {
   color: #000000;
 }
 
 /* navigation list */
-.site-nav {
+.main-nav__list {
   display: flex;
   margin-left: 93px;
 
 }
 
-/* .site-nav .nav-item {
+/* .main-nav__list .main-nav__item {
     margin-right: 50px;
 }
-.site-nav .nav-item:last-child {
+.main-nav__list .main-nav__item:last-child {
     margin-right: 0;
 
 } */
 
-.nav-item {
+.main-nav__item {
   position: relative;
 }
 
-.site-nav .nav-item:not(:last-child) {
+.main-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
 /* навигация сылки-страниц сайта */
-.site-nav .link {
+.main-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -152,8 +161,8 @@ header {
 }
 
 /* ховер на линки страниц */
-.site-nav .link:hover,
-.site-nav .link:focus {
+.main-nav__link:hover,
+.main-nav__link:focus {
   color: var(--hover-text-color);
 }
 
@@ -172,23 +181,23 @@ header {
 
 }
 
-.site-nav .link.current {
+.main-nav__link.current {
   color: var(--hover-text-color);
 }
 
 /* contacts */
 
-.header-box .contact {
+.contact__list {
   display: flex;
   margin-left: auto;
 }
 
-.contact .contact-item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 30px;
 }
 
 /* иконка в контактах */
-.contact-item .contact-icon {
+.contact__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -196,7 +205,7 @@ header {
   fill: currentColor;
 }
 
-.contact .contact-text {
+.contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -218,8 +227,8 @@ header {
 }
 
 /* ховер на контакты */
-header .contact-text:hover,
-header .contact-text:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--hover-text-color);
 }
 
@@ -246,7 +255,7 @@ header .contact-text:focus {
 }
 
 /* Заголовок героя */
-.hero .hero-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -355,11 +364,6 @@ header .contact-text:focus {
   margin-top: 0;
   margin-bottom: 50px;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-
 }
 
 .work .card-set {
@@ -411,11 +415,6 @@ header .contact-text:focus {
 .team .team-title {
   margin-top: 0;
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 
 }
 
@@ -513,11 +512,6 @@ header .contact-text:focus {
 .client .client-title {
   margin-top: 0;
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 
 
 }
