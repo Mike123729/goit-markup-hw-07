@@ -93,8 +93,8 @@ header {
 /* logo header*/
 
 
-header .logo-upper {
-  color: #000000;
+.logo {
+  color: var(--part-logo-color);
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -104,8 +104,8 @@ header .logo-upper {
   text-decoration-line: none;
 }
 
-.logo-upper .accent {
-  color: var(--part-logo-color);
+.logo-dark {
+  color: #000000;
 }
 
 /* navigation list */
@@ -579,20 +579,9 @@ header .contact-text:focus {
 
 /* logo-footer */
 
-.basement .logo-down {
+
+.logo-light {
   color: #FFFFFF;
-
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-
-  text-decoration-line: none;
-
-}
-
-.logo-down .accent {
-  color: var(--part-logo-color);
 }
 
 /* Адресс */
