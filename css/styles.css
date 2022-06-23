@@ -725,18 +725,18 @@
 /* MAIN на странице с портфолио */
 
 
-.gallery .filter {
+.filter {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
 
-.filter .filter-btn:not(:last-child) {
+.filter .filter__item:not(:last-child) {
   margin-right: 9px;
 }
 
 /*фильтр-кнопки на галерею */
-.filter .filter-item {
+.filter__btn {
   padding: 6px 22px;
   text-align: center;
 
@@ -759,8 +759,8 @@
 
 /* ховер на фильтр */
 
-.filter .filter-item:hover,
-.filter .filter-item:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -768,7 +768,7 @@
 }
 
 /* подзаголовок для каждой марки */
-.gallery-catalogue {
+.gallery__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -776,12 +776,12 @@
 
 /* сетка для списка товаров */
 
-.gallery-catalogue .card-set {
+.gallery__list .card-set {
   --card-grid-item: 3;
 }
 
 /* убираем стандартную линию-подчеркивание для сылки */
-.gallery-item .gallery-content {
+.gallery__link {
   text-decoration-line: none;
   display: block;
 
@@ -790,13 +790,13 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.gallery-content img {
+.gallery__img {
   display: block;
 }
 
 /* инфо под картинкой  */
 
-.gallery-item .gallery-info {
+.gallery-card__annex {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -809,7 +809,7 @@
 }
 
 /* подазголовк  */
-.gallery-item .gallery-subtitle {
+.gallery-card__subtitle {
   margin-top: 0;
   margin-bottom: 4px;
 
@@ -824,7 +824,7 @@
 }
 
 /* наименование товара */
-.gallery-item .gallery-text {
+.gallery-card__development {
   color: var(--secondary-text-color);
 
   font-size: 16px;
@@ -834,12 +834,12 @@
 
 }
 
-.gallery-content:hover,
-.gallery-content:focus {
+.gallery__link:hover,
+.gallery__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.gallery-overlay {
+.gallery-card {
   position: relative;
   display: flex;
   align-items: center;
@@ -847,7 +847,7 @@
 
 }
 
-.gallery-overlay::before {
+.gallery-card::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -862,7 +862,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-overlay-text {
+.gallery-card__text {
   position: absolute;
   font-weight: 400;
   font-size: 18px;
@@ -880,8 +880,8 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-content:hover .gallery-overlay::before,
-.gallery-content:hover .gallery-overlay-text {
+.gallery__link:hover .gallery-card::before,
+.gallery__link:hover .gallery-card__text {
   transform: translateY(0);
 }
 
