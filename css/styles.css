@@ -830,15 +830,15 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 } */
 
-.gallery-card {
+/* .gallery-card {
   position: relative;
   display: flex;
   align-items: center;
   overflow: hidden;
 
-}
+} */
 
-.gallery-card::before {
+/* .gallery-card::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -847,13 +847,13 @@
 
   transform: translateY(101%);
 
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) */
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.gallery-card__text {
+/* .gallery-card__text {
   position: absolute;
   font-weight: 400;
   font-size: 18px;
@@ -865,21 +865,21 @@
   padding: 63px 24px;
   transform: translateY(101%);
 
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) */
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.gallery__link:hover .gallery-card::before,
+/* .gallery__link:hover .gallery-card::before,
 .gallery__link:hover .gallery-card__text {
   transform: translateY(0);
-}
+} */
 
 
 /* ...модальное окно... */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -890,9 +890,9 @@
   visibility: visible;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -906,9 +906,9 @@
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -918,9 +918,9 @@
   visibility: hidden;
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.3);
-}
+} */
 
-.button__close {
+/* .button__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -935,24 +935,24 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-}
+} */
 
-.button__icon {
+/* .button__icon {
   width: 18px;
   height: 18px;
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 
-.button__close:hover .button__icon,
+/* .button__close:hover .button__icon,
 .button__close:focus .button__icon {
   fill: var(--hover-text-color);
-}
+} */
 
 /*.... разметка модалки..... */
 
-.form {
+/* .form {
   width: 100%;
 }
 
@@ -964,22 +964,22 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 
 
-.form__field {
+/* .form__field {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* растоянние между колонками ввода */
-.form__field+.form__field {
+/* .form__field+.form__field {
   margin-top: 10px;
-}
+} */
 
 
 
-.form__label {
+/* .form__label {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -988,20 +988,20 @@
   letter-spacing: 0.01em;
 
   color: var(--secondary-text-color)
-}
+} */
 
 /*... Для импута... */
-.form__wrap {
+/* .form__wrap {
   position: relative;
   display: block;
   width: 100%;
   height: 40px;
-}
+} */
 
 
 
 /* иконки в полях */
-.modal__icon {
+/* .form__icon {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -1014,9 +1014,9 @@
   transition: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.form__input {
+/* .form__input {
   width: 100%;
   padding: 11px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1026,11 +1026,11 @@
   transition: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 /* ТЕКС area */
-.form__textarea {
+/* .form__textarea {
   width: 100%;
   height: 120px;
   padding: 12px 15px;
@@ -1045,11 +1045,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-}
+} */
 
-.form__textarea::placeholder {
+/* .form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5)
-}
+} */
 
 /* ЧЕК БОКС */
 
@@ -1058,7 +1058,7 @@
 
 } */
 
-.checkbox__label {
+/* .checkbox__label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1069,19 +1069,19 @@
   line-height: 1.71;
 
   letter-spacing: 0.03em;
-}
+} */
 
 
 
-.form__input:focus,
+/* .form__input:focus,
 .form__textarea:focus {
   outline: none;
   border-color: #188CE8
-}
+} */
 
-.form__input:focus+.modal__icon {
+/* .form__input:focus+.form__icon {
   fill: var(--hover-text-color);
-}
+} */
 
 /*  .......Кнопка submit.... */
 
@@ -1102,7 +1102,7 @@
 
 
 /* ....checkbox icon....... */
-.checkbox__wrap {
+/* .checkbox__wrap {
   width: 16px;
   height: 15px;
   display: flex;
@@ -1120,17 +1120,17 @@
   width: 16px;
   height: 15px;
   fill: #FFFFFF;
-}
+} */
 
-.checkbox__policy:checked+.checkbox__wrap {
+/* .checkbox__policy:checked+.checkbox__wrap {
   border-color: var(--hover-text-color);
   background-color: var(--hover-text-color);
-}
+} */
 
-.checkbox__policy:focus~.checkbox__wrap {
+/* .checkbox__policy:focus~.checkbox__wrap {
   border-color: var(--hover-text-color);
-}
+} */
 
-.checkbox__link {
+/* .checkbox__link {
   color: var(--hover-text-color);
-}
+} */
