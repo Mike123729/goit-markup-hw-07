@@ -47,7 +47,7 @@
   left: 11px;
   pointer-events: none;
   transform: translateY(-50%);
-  fill: #212121;
+  fill: var(--primary-text-color);
 
   transition: fill;
   transition-duration: 250ms;
@@ -61,7 +61,7 @@
 .form__input {
   width: 100%;
   padding: 11px 42px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid var(--border-form-color);
   border-radius: 4px;
 
   cursor: pointer;
@@ -71,7 +71,7 @@
 
   &:focus {
     outline: none;
-    border-color: #188ce8;
+    border-color: var(--button-hover-color);
   }
 }
 
@@ -83,7 +83,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid var(--border-form-color);
   border-radius: 4px;
   resize: none;
   transition: border-color;
@@ -93,7 +93,7 @@
 
   &:focus {
     outline: none;
-    border-color: #188ce8;
+    border-color: var(--button-hover-color);
   }
 }
 
@@ -120,7 +120,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #212121;
+  border: 2px solid var(--primary-text-color);
   border-radius: 2px;
   margin-right: 7px;
   transition: border-color, background-color;
@@ -139,7 +139,7 @@
 .checkbox__icon {
   width: 16px;
   height: 15px;
-  fill: #ffffff;
+  fill: var(--primary-white-bgcolor);
 }
 
 .checkbox__link {

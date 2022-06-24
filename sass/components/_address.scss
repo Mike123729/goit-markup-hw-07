@@ -2,7 +2,7 @@
   margin-top: 20px;
   margin-bottom: 0;
 
-  color: #ffffff;
+  color: var(--primary-white-bgcolor);
 
   font-style: normal;
   font-weight: 400;
@@ -13,7 +13,7 @@
 .adress__contact {
   margin-top: 9px;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--spare-transparency-color);
 
   font-weight: 400;
   font-size: 14px;

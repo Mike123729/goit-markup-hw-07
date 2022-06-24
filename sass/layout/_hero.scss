@@ -11,7 +11,7 @@
 
   text-align: center;
 
-  background-color: #c4c4c4;
+  background-color: var(--spare-bg-color);
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -28,7 +28,7 @@
   margin-right: auto;
   max-width: 696px;
 
-  color: #ffffff;
+  color: var(--primary-white-bgcolor);
 
   font-weight: 900;
   font-size: 44px;

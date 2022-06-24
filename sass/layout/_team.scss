@@ -1,5 +1,5 @@
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--subordinate--bg-color);
 }
 
 .team__title {
@@ -30,7 +30,7 @@
 .team__position {
   margin-bottom: 0;
   margin-top: 10px;
-  color: #757575;
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
