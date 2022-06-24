@@ -64,16 +64,16 @@
 } */
 
 /*????????????????? сетка  */
-.card-set {
+/* .card-set {
   display: flex;
   gap: 30px;
 }
 
 .card-set__item {
   flex-basis: calc(((100% - ((var(--card-grid-item) - 1) * var(--card-grid-width))) / var(--card-grid-item)));
-}
+} */
 
-.button {
+/* .button {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -89,18 +89,18 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 
 /* social list */
-.social-list {
+/* .social-list {
   display: flex;
   gap: 10px;
 
-}
+} */
 
 /* .....social link.... */
 
-.social__link {
+/* .social__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -116,7 +116,7 @@
 .social__icon {
   width: 20px;
   height: 20px;
-}
+} */
 
 
 /* ...HEADER для всех страниц... */
@@ -272,7 +272,7 @@
 /* ...........MAIN для страницы Студио...........  */
 /* ..Секция герой.. */
 
-.hero {
+/* .hero {
   background-position: center;
   background-size: cover;
 
@@ -289,10 +289,10 @@
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-img-overlay.jpg);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 
 /* Заголовок героя */
-.hero__title {
+/* .hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -306,23 +306,23 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
 /* Кнопка в секции герой */
-.order__button {
+/* .order__button {
   margin: 0 auto;
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 10px 32px;
-}
+} */
 
 /* активизация фона кнопки при нажатии */
-.order__button:hover,
+/* .order__button:hover,
 .order__button:focus {
   background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ...Секция Наши преимущества... */
 
@@ -456,10 +456,10 @@
 
 /* инфо в карточке о работнике */
 
-.team__social-list {
+/* .team__social-list {
   justify-content: center;
   margin-top: 16px;
-}
+} */
 
 .team__info {
   padding-top: 30px;
@@ -467,7 +467,7 @@
   text-align: center;
 }
 
-.social__link {
+/* .social__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -478,24 +478,24 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
+} */
 
-.social__icon--gray {
+/* .social__icon--gray {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: #AFB1B8;
-}
+} */
 
-.social__link:hover,
+/* .social__link:hover,
 .social__link:focus {
   background-color: #2196F3;
-}
+} */
 
-.social__link:hover .social__icon--gray,
+/* .social__link:hover .social__icon--gray,
 .social__link:focus .social__icon--gray {
   fill: #FFFFFF;
-}
+} */
 
 
 /* имя работника */
@@ -636,28 +636,28 @@
   color: #FFFFFF;
 }
 
-.footer__social-list {
+/* .footer__social-list {
   margin-top: 20px;
-}
+} */
 
-.social__link--bg {
+/* .social__link--bg {
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-.social__icon--white {
+/* .social__icon--white {
   width: 20px;
   height: 20px;
   fill: #FFFFFF;
-}
+} */
 
 
-.social-item:hover .social-link {
+/* .social-item:hover .social-link {
   background-color: #2196F3;
 }
 
 .social-link:focus {
   background-color: #2196F3;
-}
+} */
 
 
 /* призыв подписатся */
@@ -703,9 +703,9 @@
 
 }
 
-.subscribe__button {
+/* .subscribe__button {
   padding: 10px 29px;
-}
+} */
 
 .icon__send {
   margin-left: 10px;
@@ -1087,7 +1087,7 @@
 
 /*  .......Кнопка submit.... */
 
-.connect__button {
+/* .connect__button {
 
   margin: 0 auto;
   padding: 10px 55px;
@@ -1100,7 +1100,7 @@
 .connect__button:hover,
 .connect__button:focus {
   background-color: #188CE8;
-}
+} */
 
 
 /* ....checkbox icon....... */
