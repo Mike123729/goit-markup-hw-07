@@ -716,18 +716,18 @@
 /* MAIN на странице с портфолио */
 
 
-.filter {
+/* .filter {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-}
+} */
 
-.filter .filter__item:not(:last-child) {
+/* .filter .filter__item:not(:last-child) {
   margin-right: 9px;
-}
+} */
 
 /*фильтр-кнопки на галерею */
-.filter__btn {
+/* .filter__btn {
   padding: 6px 22px;
   text-align: center;
 
@@ -746,48 +746,48 @@
   transition-property: background-color, box-shadow, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
+} */
 
 /* ховер на фильтр */
-
+/* 
 .filter__btn:hover,
 .filter__btn:focus {
   color: #FFFFFF;
   background-color: #2196F3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-}
+} */
 
 /* подзаголовок для каждой марки */
-.gallery__list {
+/* .gallery__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} */
 
 /* сетка для списка товаров */
 
-.gallery__list .card-set {
+/* .gallery__list .card-set {
   --card-grid-item: 3;
-}
+} */
 
 /* убираем стандартную линию-подчеркивание для сылки */
-.gallery__link {
+/* .gallery__link {
   text-decoration-line: none;
   display: block;
 
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
+} */
 
-.gallery__img {
+/* .gallery__img {
   display: block;
-}
+} */
 
 /* инфо под картинкой  */
 
-.gallery-card__annex {
+/* .gallery-card__annex {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -797,10 +797,10 @@
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   ;
-}
+} */
 
 /* подазголовк  */
-.gallery-card__subtitle {
+/* .gallery-card__subtitle {
   margin-top: 0;
   margin-bottom: 4px;
 
@@ -812,10 +812,10 @@
   letter-spacing: 0.06em;
 
   text-decoration-line: none;
-}
+} */
 
 /* наименование товара */
-.gallery-card__development {
+/* .gallery-card__development {
   color: var(--secondary-text-color);
 
   font-size: 16px;
@@ -823,12 +823,12 @@
   margin-top: 0;
   margin-bottom: 0;
 
-}
+} */
 
-.gallery__link:hover,
+/* .gallery__link:hover,
 .gallery__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .gallery-card {
   position: relative;
