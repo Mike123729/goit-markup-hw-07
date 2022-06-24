@@ -37,10 +37,37 @@
   letter-spacing: 0.02em;
   text-decoration-line: none;
 }
-
-.main-nav__link:hover,
-.main-nav__link:focus {
+.main-nav__link:hover, .main-nav__link:focus {
   color: var(--hover-text-color);
 }
 
-/*# sourceMappingURL=main.css.map */
+.current__link {
+  color: var(--hover-text-color);
+}
+.current__link::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--hover-text-color);
+}
+
+.logo {
+  color: var(--part-logo-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration-line: none;
+}
+
+.logo--dark {
+  color: #000000;
+}
+
+.logo--light {
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

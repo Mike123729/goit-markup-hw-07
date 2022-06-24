@@ -139,7 +139,7 @@
 /* logo header*/
 
 
-.logo {
+/* .logo {
   color: var(--part-logo-color);
 
   font-family: 'Raleway', sans-serif;
@@ -152,7 +152,7 @@
 
 .logo--dark {
   color: #000000;
-}
+} */
 
 /* navigation list */
 /* .main-nav__list {
@@ -204,7 +204,7 @@
 } */
 
 /* 'эфект текущей страницы */
-.current::after {
+/* .current__link::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -216,9 +216,9 @@
   border-radius: 2px;
   background-color: var(--hover-text-color);
 
-}
+} */
 
-.main-nav__link.current {
+.current__link {
   color: var(--hover-text-color);
 }
 
@@ -587,9 +587,9 @@
 /* logo-footer */
 
 
-.logo--light {
+/* .logo--light {
   color: #FFFFFF;
-}
+} */
 
 /* Адресс */
 .address {
