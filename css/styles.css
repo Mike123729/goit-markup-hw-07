@@ -131,10 +131,10 @@
 
 }
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
+} */
 
 /* logo header*/
 
@@ -155,11 +155,11 @@
 }
 
 /* navigation list */
-.main-nav__list {
+/* .main-nav__list {
   display: flex;
   margin-left: 93px;
 
-}
+} */
 
 /* .main-nav__list .main-nav__item {
     margin-right: 50px;
@@ -169,16 +169,16 @@
 
 } */
 
-.main-nav__item {
+/* .main-nav__item {
   position: relative;
-}
-
+} */
+/* 
 .main-nav__item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
 /* навигация сылки-страниц сайта */
-.main-nav__link {
+/* .main-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -195,13 +195,13 @@
   letter-spacing: 0.02em;
 
   text-decoration-line: none;
-}
+} */
 
 /* ховер на линки страниц */
-.main-nav__link:hover,
+/* .main-nav__link:hover,
 .main-nav__link:focus {
   color: var(--hover-text-color);
-}
+} */
 
 /* 'эфект текущей страницы */
 .current::after {
