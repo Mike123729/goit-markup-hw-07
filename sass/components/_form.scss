@@ -5,11 +5,13 @@
 .form__title {
   margin-bottom: 12px;
   display: block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+
+  @include font(20px, 700, 1.15, 0.03em);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
+  // letter-spacing: 0.03em;
 }
 
 .form__field {
@@ -23,11 +25,13 @@
 
 .form__label {
   margin-bottom: 4px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.14;
 
-  letter-spacing: 0.01em;
+  @include font(12px, 400, 1.14, 0.01em);
+  // font-weight: 400;
+  // font-size: 12px;
+  // line-height: 1.14;
+
+  // letter-spacing: 0.01em;
 
   color: var(--secondary-text-color);
 }
@@ -79,10 +83,12 @@
   width: 100%;
   height: 120px;
   padding: 12px 15px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
+
+  @include font(14px, 400, 1.14, 0.01em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.01em;
   border: 1px solid var(--border-form-color);
   border-radius: 4px;
   resize: none;
@@ -107,11 +113,12 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 400, 1.71, 0.03em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
 
-  letter-spacing: 0.03em;
+  // letter-spacing: 0.03em;
 }
 
 .checkbox__wrap {

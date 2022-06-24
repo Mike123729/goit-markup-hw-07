@@ -22,15 +22,18 @@
 
 .team__name {
   margin: 0;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+
+  @include font(16px, 500, 1.19, 0.03em);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
 }
 
 .team__position {
   margin-bottom: 0;
   margin-top: 10px;
   color: var(--secondary-text-color);
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(16px, 400, 1.19, 0.03em);
+  // font-size: 16px;
+  // line-height: 1.19;
 }

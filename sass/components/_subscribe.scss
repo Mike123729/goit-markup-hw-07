@@ -3,9 +3,10 @@
 }
 
 .subscribe__title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.14, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-bgcolor);
 }
@@ -27,11 +28,12 @@
 }
 
 .subscribe__input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  @include font(16px, 400, 1.25, 0.03em);
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.25;
 
-  letter-spacing: 0.03em;
+  // letter-spacing: 0.03em;
 
   color: var(--spare-transparency-color);
 }
