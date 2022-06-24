@@ -1,5 +1,12 @@
-@import "./base/container";
+@import "./utils/variables";
 
+@import "./base/container";
+@import "./base/common";
+@import "./base/section";
+
+@import "./components/contact-header";
 @import "./components/main-nav";
 @import "./components/current__link";
 @import "./components/logo";
+
+@import "./layout/header";

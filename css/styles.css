@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-white-bgcolor: #FFFFFF;
   --secondary-bg-color: #2F303A;
   --primary-text-color: #212121;
@@ -8,48 +8,48 @@
   --border-gallery-color: #EEEEEE;
   --card-grid-item: 4;
   --card-grid-width: 30px;
-}
+} */
 
 /* ................PAGES................ */
 
 /* .page-studio,.page-portfolio - классы для "body" страниц*/
-.page {
+/* .page {
   color: var(--primary-text-color);
   background-color: var(--primary-white-bgcolor);
 
   font-family: 'roboto', sans-serif;
   letter-spacing: 0.03em;
-}
+} */
 
 /* скрываем точки у списков всех страниц */
-.list {
+/* .list {
   list-style: none;
   margin: 0;
   padding: 0;
 
-}
+} */
 
 /* контейнер  */
 
 
 /* секции заполняющие вату вверх-низ */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 
-}
+} */
 
 /* заголовки H2 */
-.section__title {
+/* .section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+} */
 
 /* скрытие заголовка */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -61,7 +61,7 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /*????????????????? сетка  */
 .card-set {
@@ -121,7 +121,7 @@
 
 /* ...HEADER для всех страниц... */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -129,7 +129,7 @@
   display: flex;
   align-items: center;
 
-}
+} */
 
 /* .main-nav {
   display: flex;
@@ -218,31 +218,31 @@
 
 } */
 
-.current__link {
+/* .current__link {
   color: var(--hover-text-color);
-}
+} */
 
 /* contacts */
 
-.contact__list {
+/* .contact__list {
   display: flex;
   margin-left: auto;
-}
+} */
 
-.contact__item:not(:last-child) {
+/* .contact__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /* иконка в контактах */
-.contact__icon {
+/* .contact__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 
   fill: currentColor;
-}
+} */
 
-.contact__link {
+/* .contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -261,13 +261,13 @@
 
   text-decoration-line: none;
 
-}
+} */
 
 /* ховер на контакты */
-.contact__link:hover,
+/* .contact__link:hover,
 .contact__link:focus {
   color: var(--hover-text-color);
-}
+} */
 
 /* ...........MAIN для страницы Студио...........  */
 /* ..Секция герой.. */
