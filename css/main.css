@@ -19,6 +19,8 @@
   --link-transparency-bg: rgba(255, 255, 255, 0.1);
   --card-grid-item: 4;
   --card-grid-width: 30px;
+  --main-font-family: "roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -31,7 +33,7 @@
 .page {
   color: var(--primary-text-color);
   background-color: var(--primary-white-bgcolor);
-  font-family: "roboto", sans-serif;
+  font-family: var(--main-font-family);
   letter-spacing: 0.03em;
 }
 
@@ -175,7 +177,7 @@
 
 .logo {
   color: var(--part-logo-color);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
